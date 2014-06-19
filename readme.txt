@@ -1,5 +1,7 @@
 This is the final project from the "Computational Investing I" class.
 
+The QSToolKit installation Guide is here:http://wiki.quantsoftware.org/index.php?title=QSToolKit_Installation_Guide.
+
 The goal of this project is to build an automatic trading strategy and test its performance against the market. Concretely, S&P 500 stock data is extracted from Yahoo finance. Some events (technical indicator, here Bollinger value is used) derived from the stock¡¯s price fluctuation can be used as a trigger for an automatic trading action. For example, if the stock price is going down while the market is going up. It might be a good time to hold a long position of the stock and then short it five days later. And this automatic trading strategy is implemented and the performance of the constructed portfolio in terms of risk and average return can be tested against the market data.  
 
 The trading.py contains three major functions: 1. automatically generate trades; 2. update total asset value and 3. compare asset performance against the market performance using the S&P 500 index.
